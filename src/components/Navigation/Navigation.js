@@ -1,13 +1,13 @@
 
 const Navigation = () => {
 	return (
-		<div className="flex flex-col h-screen">
-			<div className="w-full h-16 bg-gray-200"></div>
+		<div className="flex flex-col h-full">
+
 			<div className="w-full  bg-gray-900 flex-grow 
 			flex flex-col
 			 justify-between 
 	
-py-16 px-4">
+py-8 px-4">
 	{/* Dashboard Menu */}
 				<div>
 					<h1 className="font-sans text-gray-500 text-sm pl-2 font-bold pb-2">Menu</h1>
