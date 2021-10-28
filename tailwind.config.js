@@ -5,11 +5,13 @@ module.exports = {
     extend: {
       gridTemplateRows:{
         'nav': 'auto 1fr',
-      }
+      },
+      backgroundColor: ['checked'],
+      borderColor: ['checked'],
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }

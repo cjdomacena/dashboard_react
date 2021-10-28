@@ -1,17 +1,22 @@
+import Checkbox from "../Checkbox/Checkbox"
 import PropTypes from 'prop-types'
-const Card = ({color ="gray", }) => {
+
+const Card = ({label ="Default"}) => {
+
+
+
 	return (
-		<div className="h-64 w-64 bg-white shadow rounded-sm">
-			<div className="flex p-4 justify-center">
-				<div className={`rounded-full bg-${color}-200 h-24 w-24`}></div>
+		<div className=" p-4 flex">
+			<div className={`h-auto max-w-80 bg-white shadow-sm rounded-lg hover:shadow-xl transition-all ease-linear`}>
+			<Checkbox label={label}/>
 			</div>
 		</div>
 	)
-} 
+}
 
 export default Card
 
-Card.propTypes = {
-	color: PropTypes.string
+Card.propTypes = 
+{
+	label: PropTypes.string,
 }
-
