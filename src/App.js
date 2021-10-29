@@ -4,7 +4,7 @@ function App() {
 
 
   return (
-    <div className={` App `}>
+    <div className="h-screen">
       <Dashboard />
     </div>
   );
